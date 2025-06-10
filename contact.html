@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Contact - Jovial Juniors</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <h1>Contact Us</h1>
-</header>
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="programs.html">Programs</a>
-  <a href="contact.html">Contact</a>
-</nav>
-<main>
-  <section>
-    <p>Email: <a href="mailto:jovialjuniorsdaycare@example.com">jovialjuniorsdaycare@example.com</a></p>
-    <p>Phone: +91 9876543210</p>
-    <p>Address: 123 Happy Lane, Fun City, India</p>
-  </section>
-</main>
-<footer>
-  &copy; 2025 Jovial Juniors Day Care Center
-</footer>
+  <header class="hero small">
+    <h1>Contact Us</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="programs.html">Programs</a>
+    <a href="admission.html">Admission</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>We’d Love to Hear From You!</h2>
+      <p>📍 Srinivas Nagar Colony, Dammaiguda, Hyderabad</p>
+      <p>📞 Call us: 7780339150 / 9052950920</p>
+      <p>✉️ Email: <a href="mailto:jovialjuniorsdaycare@example.com">jovialjuniorsdaycare@example.com</a></p>
+
+      <form>
+        <label for="name">Your Name</label><br/>
+        <input type="text" id="name" name="name" required><br/>
+
+        <label for="email">Your Email</label><br/>
+        <input type="email" id="email" name="email" required><br/>
+
+        <label for="message">Message</label><br/>
+        <textarea id="message" name="message" rows="5" required></textarea><br/>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>📍 Dammaiguda, Hyderabad | 📞 7780339150 / 9052950920</p>
+    <p>&copy; 2025 Jovial Juniors Day Care Center</p>
+  </footer>
 </body>
 </html>
